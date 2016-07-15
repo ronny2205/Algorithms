@@ -12,11 +12,11 @@ class Tree
     	return self if self.payload == val
     	found = nil
     	self.children.each do |child|
-			found = child.depth_search(val)
-			break if found 
-		end
-		return found
-	end	
+		found = child.depth_search(val)
+		break if found 
+	end
+	return found
+    end	
 
 end
 
