@@ -1,6 +1,7 @@
 # You are given a 2D matrix, a, of dimension MxN and a positive integer R. 
 # You have to rotate the matrix R times. 
 # Rotation should be in anti-clockwise direction.
+# Solved on hackerrank.com
 
 # An illustration of what happens when the matrix is rotated once:
 # 1  2  3  4      2  3  4  8
@@ -8,7 +9,6 @@
 # 9 10 11 12  ->  5  6 10 16
 # 13 14 15 16     9 13 14 15
 
-# Solved on hackerrank.com
 
 def one_layer_rotation(grid, first_row, first_col, last_row, last_col)
     # top row
