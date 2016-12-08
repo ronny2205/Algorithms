@@ -1,3 +1,5 @@
+# Implementing a Stack class in Ruby, including sort capability
+
 class Stack
 	def initialize
 		@stack = []
